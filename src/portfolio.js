@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with Java / Spring Boot/ JavaScript / Reactjs / Nodejs / and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1NgyqM_yr-DlhucC0u8faaD59pQh3r22o/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1v1cdZYOyRL2djy1br_gaMBthZOwoIhL8/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -156,9 +156,9 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Science",
       duration: "September 2021 - June 2023",
       desc: [
-        "Specialized in Advanced Computing, Machine Learning, and Distributed Systems.",
-        "Gained strong command over Java, Python, ReactJS, and Spring Boot through academic and project-based learning.",
-        "Focused on real-world applications of AI, web application development, and cloud-based systems."
+        "Specialized in Advanced Computing, Machine Learning,Distributed Systems,Java, Python, ReactJS, and Spring Boot.",
+        // "Gained strong command over Java, Python, ReactJS, and Spring Boot through academic and project-based learning.",
+        // "Focused on real-world applications of AI, web application development, and cloud-based systems."
       ],
       descBullets: [
         "Inventory Management System (Spring Boot + ReactJS + MySQL) Developed a complete CRUD-based inventory system as a capstone project, deployed locally and demonstrated during internal presentations.",
@@ -173,7 +173,7 @@ const educationInfo = {
       duration: "August 2018 - June 2021",
       desc: [
         "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Networking, Operating Systems, Databases, Data Structure and Algorithm",
-        "Built strong foundational skills in Java, C, HTML/CSS, JavaScript, and MySQL."
+        // "Built strong foundational skills in Java, C, HTML/CSS, JavaScript, and MySQL."
       ],
       descBullets: [
         "Developed multiple academic projects, including a mini social networking site and a library management system.",
