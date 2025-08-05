@@ -1,0 +1,101 @@
+.contact-main {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1rem;
+}
+
+// .contact-card-glass {
+//   width: 100%;
+//   max-width: 750px;
+//   padding: 2.5rem;
+//   background: rgba(255, 255, 255, 0.05);
+//   border: 1px solid rgba(255, 255, 255, 0.125);
+//   border-radius: 20px;
+//   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+//   backdrop-filter: blur(10px);
+//   -webkit-backdrop-filter: blur(10px);
+//   color: #ffffff;
+// }
+.contact-card-glass {
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  max-width: 750px;
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #ffffff;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.contact-form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+
+  .row {
+    display: flex;
+    gap: 1rem;
+
+    input {
+      flex: 1;
+    }
+
+    @media (max-width: 600px) {
+      flex-direction: row;
+    }
+  }
+
+  input,
+  textarea {
+    width: 90%;
+    padding: 18px 22px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+
+    &::placeholder {
+      font-size: 30px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    &:focus {
+      outline: none;
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 140px;
+    max-height: 220px;
+  }
+
+  .contact-btn {
+    align-self: flex-start;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
